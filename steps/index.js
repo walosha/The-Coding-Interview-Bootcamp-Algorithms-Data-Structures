@@ -26,5 +26,20 @@ function steps(n) {
     string = "";
   }
 }
+// function steps(n, step = 0, str = "") {
+//   if (n + 1 === step) return;
+//   if (str.length < step) {
+//     str += "#";
+//   } else {
+//     str += " ";
+//   }
+
+//   if (str.length === n) {
+//     console.log(str);
+//     str = "";
+//     step++;
+//   }
+//   return steps(n, step, str);
+// }
 
 module.exports = steps;
